@@ -229,8 +229,8 @@
 
 <div align="center">
 
-<!-- GitHub Profile Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=jayprakashkkk&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="100%" alt="Jay's GitHub Trophies" />
+<!-- Developer Achievements & Milestones -->
+<img src="./assets/achievements.svg" width="100%" alt="Jay's Developer Achievements & Milestones" />
 
 <br/><br/>
 
