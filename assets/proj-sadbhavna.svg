@@ -1,27 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 110" width="540" height="110" role="img" aria-label="Sadbhavna Mart">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 190" width="540" height="190" role="img" aria-label="Sadbhavna Mart">
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#451a03"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+      <stop offset="0%" stop-color="#3d1704"/>
+      <stop offset="100%" stop-color="#0b1120"/>
     </linearGradient>
-    <clipPath id="c"><rect width="540" height="110" rx="12"/></clipPath>
+    <clipPath id="c"><rect width="540" height="190" rx="14"/></clipPath>
   </defs>
   <g clip-path="url(#c)">
-    <rect width="540" height="110" fill="url(#g)"/>
-    <!-- Animated Delivery Route Pulse -->
+    <rect width="540" height="190" fill="url(#g)"/>
     <path d="M415,72 Q455,24 505,54" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 5"/>
     <circle cx="415" cy="72" r="6" fill="#f59e0b"/>
-    <circle cx="505" cy="54" r="6" fill="#22c55e">
-      <animate attributeName="r" values="5;8;5" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="505" cy="54" r="6" fill="#22c55e"><animate attributeName="r" values="5;8;5" dur="1.6s" repeatCount="indefinite"/></circle>
     <circle cx="460" cy="44" r="5" fill="#fde047">
       <animate attributeName="cx" values="415;460;505" dur="2.4s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="72;42;54" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <rect x="22" y="18" width="136" height="22" rx="11" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-opacity="0.6"/>
-    <text x="90" y="33" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700" fill="#fde68a">MOBILE-FIRST • D2C</text>
-    <text x="22" y="72" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" font-weight="800" fill="#f8fafc">🛒 Sadbhavna Mart</text>
-    <text x="22" y="94" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#94a3b8">Hostel Essentials • WhatsApp Dispatch</text>
-    <rect x="1" y="1" width="538" height="108" rx="12" fill="none" stroke="#fbbf24" stroke-opacity="0.35"/>
+
+    <rect x="22" y="18" width="138" height="22" rx="11" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-opacity="0.65"/>
+    <text x="91" y="33" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="10.5" font-weight="700" fill="#fde68a">MOBILE-FIRST • D2C</text>
+
+    <text x="22" y="72" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="25" font-weight="800" fill="#f8fafc">🛒 Sadbhavna Mart</text>
+    <text x="22" y="102" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13.5" fill="#cbd5e1">Mobile-first hostel late-night essentials ordering app</text>
+    <text x="22" y="122" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="13.5" fill="#cbd5e1">with direct WhatsApp dispatch &amp; door-to-door routing.</text>
+
+    <g transform="translate(22, 144)" font-family="ui-monospace, Menlo, monospace" font-size="11.5" font-weight="700" fill="#fef3c7">
+      <rect x="0" y="0" width="66" height="26" rx="7" fill="#3b1d08" stroke="#fbbf24" stroke-opacity="0.5"/><text x="33" y="17" text-anchor="middle">HTML5</text>
+      <rect x="74" y="0" width="58" height="26" rx="7" fill="#3b1d08" stroke="#fbbf24" stroke-opacity="0.5"/><text x="103" y="17" text-anchor="middle">CSS3</text>
+      <rect x="140" y="0" width="106" height="26" rx="7" fill="#3b1d08" stroke="#fbbf24" stroke-opacity="0.5"/><text x="193" y="17" text-anchor="middle">FontAwesome</text>
+    </g>
+    <rect x="1" y="1" width="538" height="188" rx="14" fill="none" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1.4"/>
   </g>
 </svg>
