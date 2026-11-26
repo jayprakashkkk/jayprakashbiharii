@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 110" width="540" height="110" role="img" aria-label="Quiz Pro">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="540" height="110" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="540" height="110" fill="url(#g)"/>
+    <!-- Animated Quiz Score / Timer Bars -->
+    <rect x="415" y="26" width="95" height="12" rx="6" fill="#1e293b"/>
+    <rect x="415" y="26" width="76" height="12" rx="6" fill="#a855f7">
+      <animate attributeName="width" values="45;88;45" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="415" y="49" width="95" height="12" rx="6" fill="#1e293b"/>
+    <rect x="415" y="49" width="60" height="12" rx="6" fill="#ec4899">
+      <animate attributeName="width" values="70;38;70" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="415" y="72" width="95" height="12" rx="6" fill="#1e293b"/>
+    <rect x="415" y="72" width="85" height="12" rx="6" fill="#38bdf8">
+      <animate attributeName="width" values="55;90;55" dur="2.9s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="22" y="18" width="128" height="22" rx="11" fill="#a855f7" fill-opacity="0.22" stroke="#c084fc" stroke-opacity="0.6"/>
+    <text x="86" y="33" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700" fill="#e9d5ff">REACT • SUPABASE</text>
+    <text x="22" y="72" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" font-weight="800" fill="#f8fafc">🧠 Quiz Pro</text>
+    <text x="22" y="94" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#94a3b8">401+ MCQs • 16 Subjects • Analytics</text>
+    <rect x="1" y="1" width="538" height="108" rx="12" fill="none" stroke="#c084fc" stroke-opacity="0.35"/>
+  </g>
+</svg>

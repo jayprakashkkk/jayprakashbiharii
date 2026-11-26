@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="Jay Prakash Animated Footer Wave">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#131129"/>
+    </linearGradient>
+    <linearGradient id="fWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="fWave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="quoteGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="50%" stop-color="#d8b4fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="footerClip">
+      <rect width="1200" height="170" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .quote {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 21px;
+      font-weight: 700;
+      font-style: italic;
+    }
+    .cta {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13.5px;
+      fill: #94a3b8;
+      letter-spacing: 0.4px;
+    }
+  </style>
+
+  <g clip-path="url(#footerClip)">
+    <rect width="1200" height="170" fill="url(#footerBg)"/>
+
+    <!-- Twinkling Stars -->
+    <circle cx="140" cy="36" r="1.8" fill="#7dd3fc">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="310" cy="24" r="1.4" fill="#e2e8f0">
+      <animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="910" cy="30" r="2" fill="#d8b4fe">
+      <animate attributeName="opacity" values="0.25;0.95;0.25" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1075" cy="48" r="1.6" fill="#f472b6">
+      <animate attributeName="opacity" values="0.85;0.15;0.85" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Animated Seamless Waves -->
+    <path d="M0,108 C150,74 300,142 450,108 C600,74 750,142 900,108 C1050,74 1200,142 1350,108 C1500,74 1650,142 1800,108 C1950,74 2100,142 2250,108 L2400,108 L2400,170 L0,170 Z" fill="url(#fWave1)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,122 C200,150 400,92 600,122 C800,150 1000,92 1200,122 C1400,150 1600,92 1800,122 C2000,150 2200,92 2400,122 L2400,170 L0,170 Z" fill="url(#fWave2)">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Center Quote & CTA -->
+    <text x="600" y="64" text-anchor="middle" class="quote" fill="url(#quoteGrad)">“First, solve the problem. Then, write the code.”</text>
+    <text x="600" y="96" text-anchor="middle" class="cta">⭐ Star a repository if my projects helped or inspired you • Built by Jay Prakash</text>
+
+    <rect x="1" y="1" width="1198" height="168" rx="16" ry="16" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.2"/>
+  </g>
+</svg>

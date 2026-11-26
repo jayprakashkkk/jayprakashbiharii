@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 175" width="1100" height="175" role="img" aria-label="Core Engineering Pillars">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="barBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="barGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .c-title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #f1f5f9;
+    }
+    .c-sub {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12.5px;
+      fill: #94a3b8;
+    }
+    .c-tag {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 11.5px;
+      font-weight: 600;
+      fill: #7dd3fc;
+    }
+  </style>
+
+  <!-- Card 1: Full-Stack -->
+  <g transform="translate(0, 8)">
+    <rect width="260" height="158" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="28" cy="30" r="14" fill="#1e293b"/>
+    <text x="28" y="35" text-anchor="middle" font-size="16">⚛️</text>
+    <text x="52" y="35" class="c-title">Full-Stack Apps</text>
+    <text x="20" y="68" class="c-sub">Spring Boot • React • Node.js</text>
+    <text x="20" y="90" class="c-sub">REST APIs &amp; Real-Time Sync</text>
+    <rect x="20" y="114" width="220" height="7" rx="3.5" fill="#1e293b"/>
+    <rect x="20" y="114" width="204" height="7" rx="3.5" fill="url(#barBlue)">
+      <animate attributeName="width" values="185;210;185" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="20" y="140" class="c-tag">● PRODUCTION READY</text>
+  </g>
+
+  <!-- Card 2: Edge & Cloud -->
+  <g transform="translate(280, 8)">
+    <rect width="260" height="158" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="28" cy="30" r="14" fill="#1e293b"/>
+    <text x="28" y="35" text-anchor="middle" font-size="16">☁️</text>
+    <text x="52" y="35" class="c-title">Edge &amp; Serverless</text>
+    <text x="20" y="68" class="c-sub">Cloudflare Pages • Railway</text>
+    <text x="20" y="90" class="c-sub">Docker • CI/CD Workflows</text>
+    <rect x="20" y="114" width="220" height="7" rx="3.5" fill="#1e293b"/>
+    <rect x="20" y="114" width="194" height="7" rx="3.5" fill="url(#barPurple)">
+      <animate attributeName="width" values="175;202;175" dur="4.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="20" y="140" class="c-tag" fill="#d8b4fe">● LOW-LATENCY DEPLOY</text>
+  </g>
+
+  <!-- Card 3: Databases -->
+  <g transform="translate(560, 8)">
+    <rect width="260" height="158" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="28" cy="30" r="14" fill="#1e293b"/>
+    <text x="28" y="35" text-anchor="middle" font-size="16">🗄️</text>
+    <text x="52" y="35" class="c-title">Data &amp; Schemas</text>
+    <text x="20" y="68" class="c-sub">PostgreSQL • Neon • Supabase</text>
+    <text x="20" y="90" class="c-sub">MySQL • MongoDB</text>
+    <rect x="20" y="114" width="220" height="7" rx="3.5" fill="#1e293b"/>
+    <rect x="20" y="114" width="190" height="7" rx="3.5" fill="url(#barGreen)">
+      <animate attributeName="width" values="172;198;172" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="20" y="140" class="c-tag" fill="#6ee7b7">● CLOUD SYNCED</text>
+  </g>
+
+  <!-- Card 4: UI/UX -->
+  <g transform="translate(840, 8)">
+    <rect width="260" height="158" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="28" cy="30" r="14" fill="#1e293b"/>
+    <text x="28" y="35" text-anchor="middle" font-size="16">✨</text>
+    <text x="52" y="35" class="c-title">UI/UX &amp; Motion</text>
+    <text x="20" y="68" class="c-sub">Tailwind CSS • Vite • PWAs</text>
+    <text x="20" y="90" class="c-sub">Responsive Micro-Animations</text>
+    <rect x="20" y="114" width="220" height="7" rx="3.5" fill="#1e293b"/>
+    <rect x="20" y="114" width="208" height="7" rx="3.5" fill="url(#barAmber)">
+      <animate attributeName="width" values="188;214;188" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="20" y="140" class="c-tag" fill="#fcd34d">● PIXEL PERFECT</text>
+  </g>
+</svg>

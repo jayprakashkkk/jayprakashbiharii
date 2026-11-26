@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 340" width="1100" height="340" role="img" aria-label="Jay Prakash Interactive Developer Terminal">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="33%" stop-color="#8b5cf6"/>
+      <stop offset="66%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="termClip">
+      <rect width="1100" height="340" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .hdr {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+      fill: #94a3b8;
+    }
+    .cmd {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 15.5px;
+      font-weight: 600;
+    }
+    .json {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 14.5px;
+    }
+    .prompt { fill: #22c55e; }
+    .path { fill: #38bdf8; }
+    .text { fill: #f1f5f9; }
+    .key { fill: #7dd3fc; }
+    .str { fill: #a5f3fc; }
+    .accent { fill: #d8b4fe; }
+    .gold { fill: #fde047; }
+    .muted { fill: #64748b; }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(44px); opacity: 0; }
+      15% { opacity: 0.35; }
+      85% { opacity: 0.35; }
+      100% { transform: translateY(330px); opacity: 0; }
+    }
+    .cursor { animation: blink 0.9s steps(1) infinite; }
+    .scanline { animation: scan 5s linear infinite; }
+  </style>
+
+  <g clip-path="url(#termClip)">
+    <rect width="1100" height="340" fill="url(#termBg)"/>
+
+    <!-- Title Bar -->
+    <rect width="1100" height="44" fill="#131c31"/>
+    <line x1="0" y1="44" x2="1100" y2="44" stroke="#1e293b" stroke-width="1.5"/>
+
+    <!-- macOS Dots -->
+    <circle cx="24" cy="22" r="6.5" fill="#ef4444"/>
+    <circle cx="46" cy="22" r="6.5" fill="#f59e0b"/>
+    <circle cx="68" cy="22" r="6.5" fill="#22c55e"/>
+
+    <text x="550" y="26" text-anchor="middle" class="hdr">jay@github: ~/jayprakashkkk — zsh</text>
+
+    <!-- Live Pulse Pill -->
+    <rect x="975" y="10" width="102" height="24" rx="12" fill="#0f172a" stroke="#22c55e" stroke-opacity="0.45"/>
+    <circle cx="994" cy="22" r="4" fill="#22c55e">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="1008" y="26" class="hdr" fill="#4ade80">ONLINE</text>
+
+    <!-- Subtle Moving Scanline -->
+    <rect x="0" y="0" width="1100" height="2.5" fill="#38bdf8" opacity="0.22" class="scanline"/>
+
+    <!-- Command Line 1 -->
+    <text x="28" y="78" class="cmd">
+      <tspan class="prompt">➜</tspan>
+      <tspan class="path"> ~/jayprakashkkk</tspan>
+      <tspan class="text"> cat developer.json</tspan>
+    </text>
+
+    <!-- JSON Body -->
+    <text x="28" y="110" class="json muted">{</text>
+
+    <text x="52" y="138" class="json">
+      <tspan class="key">"building"</tspan><tspan class="muted">: </tspan>
+      <tspan class="str">"Modern full-stack web apps with edge delivery &amp; real-time cloud sync"</tspan><tspan class="muted">,</tspan>
+    </text>
+
+    <text x="52" y="166" class="json">
+      <tspan class="key">"coreStack"</tspan><tspan class="muted">: [</tspan>
+      <tspan class="accent">"Java (Spring Boot)"</tspan><tspan class="muted">, </tspan>
+      <tspan class="accent">"React &amp; Node.js"</tspan><tspan class="muted">, </tspan>
+      <tspan class="accent">"PostgreSQL"</tspan><tspan class="muted">, </tspan>
+      <tspan class="accent">"Cloudflare / Railway"</tspan>
+      <tspan class="muted">],</tspan>
+    </text>
+
+    <text x="52" y="194" class="json">
+      <tspan class="key">"askMeAbout"</tspan><tspan class="muted">: </tspan>
+      <tspan class="str">"Frontend architecture, responsive UI/UX, REST APIs &amp; DB optimization"</tspan><tspan class="muted">,</tspan>
+    </text>
+
+    <text x="52" y="222" class="json">
+      <tspan class="key">"openTo"</tspan><tspan class="muted">: </tspan>
+      <tspan class="gold">"Innovative web apps, campus utilities &amp; open-source developer tools"</tspan><tspan class="muted">,</tspan>
+    </text>
+
+    <text x="52" y="250" class="json">
+      <tspan class="key">"funFact"</tspan><tspan class="muted">: </tspan>
+      <tspan class="str">"Can happily debug a single semicolon or CSS transform until pixel-perfect"</tspan>
+    </text>
+
+    <text x="28" y="278" class="json muted">}</text>
+
+    <!-- Active Prompt with Blinking Cursor + Live Build Bar -->
+    <text x="28" y="312" class="cmd">
+      <tspan class="prompt">➜</tspan>
+      <tspan class="path"> ~/jayprakashkkk</tspan>
+      <tspan class="text"> ./ship-awesome-code.sh</tspan>
+    </text>
+    <rect x="380" y="296" width="9" height="19" rx="1.5" fill="#22d3ee" class="cursor"/>
+
+    <!-- Animated Progress Indicator on Right -->
+    <text x="840" y="312" class="hdr" fill="#7dd3fc">STATUS:</text>
+    <rect x="905" y="302" width="165" height="8" rx="4" fill="#1e293b"/>
+    <rect x="905" y="302" width="75" height="8" rx="4" fill="url(#borderGlow)">
+      <animate attributeName="x" values="905;995;905" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Glowing Border -->
+    <rect x="1" y="1" width="1098" height="338" rx="16" ry="16" fill="none" stroke="url(#borderGlow)" stroke-opacity="0.55" stroke-width="1.6"/>
+  </g>
+</svg>

@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 350" width="1200" height="350" role="img" aria-label="Jay Prakash — Full-Stack Developer Animated Banner">
+  <defs>
+    <!-- Deep Cyber Space Backdrop -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="45%" stop-color="#0b132b"/>
+      <stop offset="100%" stop-color="#150f2e"/>
+    </linearGradient>
+
+    <!-- Animated Shimmer Gradient for Name -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="20%" stop-color="#818cf8"/>
+      <stop offset="40%" stop-color="#e879f9"/>
+      <stop offset="60%" stop-color="#22d3ee"/>
+      <stop offset="80%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="-1 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Neon Ring & HUD Border Gradient -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Aurora Wave Gradients -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.28"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <!-- Shooting Star Gradient -->
+    <linearGradient id="meteorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="80%" stop-color="#7dd3fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Ambient Orbs -->
+    <radialGradient id="orbCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="cyberGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#38bdf8" stroke-width="0.4" opacity="0.09"/>
+      <circle cx="0" cy="0" r="1" fill="#7dd3fc" opacity="0.2"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect width="1200" height="350" rx="20" ry="20"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 58px;
+      font-weight: 800;
+      letter-spacing: -1.2px;
+    }
+    .greeting {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      fill: #38bdf8;
+    }
+    .badge-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.3px;
+      fill: #a5f3fc;
+    }
+    .role-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 21px;
+      font-weight: 600;
+      fill: #f1f5f9;
+    }
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16.5px;
+      fill: #94a3b8;
+    }
+    .chip-text {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #e2e8f0;
+    }
+    .code-symbol {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 30px;
+      font-weight: 800;
+      fill: #ffffff;
+    }
+    .orbit-label {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 10px;
+      font-weight: 700;
+      fill: #f8fafc;
+    }
+    @keyframes floatSlow {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes floatAlt {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(9px); }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes role1 {
+      0%, 28% { opacity: 1; transform: translateY(0px); }
+      33%, 95% { opacity: 0; transform: translateY(-8px); }
+      100% { opacity: 1; transform: translateY(0px); }
+    }
+    @keyframes role2 {
+      0%, 30% { opacity: 0; transform: translateY(8px); }
+      35%, 61% { opacity: 1; transform: translateY(0px); }
+      66%, 100% { opacity: 0; transform: translateY(-8px); }
+    }
+    @keyframes role3 {
+      0%, 63% { opacity: 0; transform: translateY(8px); }
+      68%, 94% { opacity: 1; transform: translateY(0px); }
+      100% { opacity: 0; transform: translateY(-8px); }
+    }
+    .float-slow { animation: floatSlow 4.8s ease-in-out infinite; }
+    .float-alt { animation: floatAlt 4s ease-in-out infinite; }
+    .cursor { animation: blinkCursor 0.9s steps(1) infinite; }
+    .r1 { animation: role1 9s ease-in-out infinite; }
+    .r2 { animation: role2 9s ease-in-out infinite; }
+    .r3 { animation: role3 9s ease-in-out infinite; }
+  </style>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Background & Cyber Grid -->
+    <rect width="1200" height="350" fill="url(#bgGrad)"/>
+    <rect width="1200" height="350" fill="url(#cyberGrid)"/>
+
+    <!-- Ambient Moving Orbs -->
+    <circle cx="180" cy="80" r="260" fill="url(#orbCyan)">
+      <animate attributeName="cx" values="180;250;180" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="165" r="280" fill="url(#orbPurple)">
+      <animate attributeName="cy" values="165;115;165" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="310" r="220" fill="url(#orbPink)">
+      <animate attributeName="cx" values="620;540;620" dur="13s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Shooting Stars / Meteors -->
+    <g transform="rotate(-18 400 80)">
+      <rect x="-150" y="60" width="110" height="2.2" rx="1" fill="url(#meteorGrad)" opacity="0">
+        <animate attributeName="x" values="-150;1350" dur="5.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.9;0.9;0;0" keyTimes="0;0.08;0.25;0.35;1" dur="5.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <g transform="rotate(-18 750 140)">
+      <rect x="-150" y="130" width="90" height="1.8" rx="1" fill="url(#meteorGrad)" opacity="0">
+        <animate attributeName="x" values="-150;1350" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.85;0.85;0;0" keyTimes="0;0.08;0.22;0.32;1" dur="7.5s" begin="2.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Twinkling Stars -->
+    <circle cx="510" cy="44" r="2.1" fill="#e2e8f0">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="690" cy="64" r="1.6" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.9;0.15;0.9" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="815" cy="36" r="2.2" fill="#e879f9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="445" cy="260" r="1.7" fill="#f472b6">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="675" cy="235" r="1.9" fill="#22d3ee">
+      <animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Seamless Animated Bottom Aurora Waves -->
+    <g opacity="0.95">
+      <path d="M0,272 C150,230 300,315 450,272 C600,230 750,315 900,272 C1050,230 1200,315 1350,272 C1500,230 1650,315 1800,272 C1950,230 2100,315 2250,272 L2400,272 L2400,350 L0,350 Z" fill="url(#waveGrad1)">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="9s" repeatCount="indefinite"/>
+      </path>
+      <path d="M0,292 C200,326 400,256 600,292 C800,326 1000,256 1200,292 C1400,326 1600,256 1800,292 C2000,326 2200,256 2400,292 L2400,350 L0,350 Z" fill="url(#waveGrad2)">
+        <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="13s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- HUD Corner Brackets -->
+    <path d="M18,44 L18,18 L44,18" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <path d="M1156,18 L1182,18 L1182,44" fill="none" stroke="#ec4899" stroke-width="2" opacity="0.6"/>
+    <path d="M18,306 L18,332 L44,332" fill="none" stroke="#a855f7" stroke-width="2" opacity="0.6"/>
+    <path d="M1156,332 L1182,332 L1182,306" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.6"/>
+
+    <!-- Left Content -->
+    <g transform="translate(64, 48)">
+      <!-- Live Status Pill -->
+      <rect x="0" y="0" width="352" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.3"/>
+      <circle cx="19" cy="16" r="4.5" fill="#22c55e" filter="url(#glow)">
+        <animate attributeName="r" values="4;5.8;4" dur="1.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="35" y="20" class="badge-text">OPEN TO COLLABORATE &amp; SHIP CODE</text>
+
+      <!-- Greeting Tag -->
+      <text x="2" y="64" class="greeting">HELLO WORLD // WELCOME TO MY CODEBASE</text>
+
+      <!-- Main Shimmering Name Title -->
+      <text x="0" y="124" class="title" fill="url(#titleGrad)" filter="url(#glow)">Jay Prakash</text>
+
+      <!-- Animated Cycling Roles -->
+      <g transform="translate(0, 162)">
+        <text x="0" y="0" class="role-text" fill="#38bdf8">&gt;_</text>
+        <g class="r1">
+          <text x="34" y="0" class="role-text">Full-Stack Developer • Java &amp; React</text>
+        </g>
+        <g class="r2">
+          <text x="34" y="0" class="role-text">Serverless Architect • Cloudflare &amp; Neon</text>
+        </g>
+        <g class="r3">
+          <text x="34" y="0" class="role-text">UI/UX Craftsman • Pixel-Perfect Apps</text>
+        </g>
+        <rect x="530" y="-18" width="10" height="23" rx="2" fill="#22d3ee" class="cursor"/>
+      </g>
+
+      <!-- Tagline -->
+      <text x="0" y="198" class="sub-text">Engineering fast, scalable web platforms with edge delivery &amp; clean motion UI.</text>
+
+      <!-- Glowing Tech Highlight Chips -->
+      <g transform="translate(0, 224)">
+        <rect x="0" y="0" width="118" height="32" rx="9" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+        <text x="59" y="20.5" text-anchor="middle" class="chip-text">☕ Spring Boot</text>
+
+        <rect x="130" y="0" width="100" height="32" rx="9" fill="#0f172a" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.2"/>
+        <text x="180" y="20.5" text-anchor="middle" class="chip-text">⚛️ React</text>
+
+        <rect x="242" y="0" width="128" height="32" rx="9" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.2"/>
+        <text x="306" y="20.5" text-anchor="middle" class="chip-text">🐘 PostgreSQL</text>
+
+        <rect x="382" y="0" width="126" height="32" rx="9" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1.2"/>
+        <text x="445" y="20.5" text-anchor="middle" class="chip-text">☁️ Cloudflare</text>
+      </g>
+    </g>
+
+    <!-- Right Animated Tech Solar System / Cyber Core -->
+    <g transform="translate(970, 172)">
+      <!-- Outer Orbit Ring -->
+      <circle cx="0" cy="0" r="124" fill="none" stroke="url(#ringGrad)" stroke-width="1.6" stroke-dasharray="10 8" opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="24s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Middle Counter-Rotating Ring -->
+      <circle cx="0" cy="0" r="92" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="28 12 6 12" opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="15s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Inner Ring -->
+      <circle cx="0" cy="0" r="60" fill="#090f24" stroke="url(#ringGrad)" stroke-width="2.6" filter="url(#glow)">
+        <animate attributeName="r" values="58;63;58" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- Center Code Symbol -->
+      <text x="0" y="11" text-anchor="middle" class="code-symbol" filter="url(#glow)">&lt;/&gt;</text>
+
+      <!-- Orbiting Planets (Outer) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="14s" repeatCount="indefinite"/>
+        <circle cx="124" cy="0" r="14" fill="#0f172a" stroke="#38bdf8" stroke-width="1.8" filter="url(#glow)"/>
+        <circle cx="-124" cy="0" r="12" fill="#0f172a" stroke="#ec4899" stroke-width="1.8" filter="url(#glow)"/>
+      </g>
+
+      <!-- Orbiting Planets (Middle) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="60 0 0" to="-300 0 0" dur="18s" repeatCount="indefinite"/>
+        <circle cx="92" cy="0" r="8" fill="#a855f7" filter="url(#glow)"/>
+        <circle cx="-92" cy="0" r="7" fill="#22c55e" filter="url(#glow)"/>
+      </g>
+
+      <!-- Floating Cyber Pills -->
+      <g class="float-slow" transform="translate(-165, -96)">
+        <rect x="0" y="0" width="76" height="28" rx="14" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.7" stroke-width="1.2"/>
+        <text x="38" y="18" text-anchor="middle" class="chip-text" fill="#7dd3fc">{ API }</text>
+      </g>
+      <g class="float-alt" transform="translate(80, 74)">
+        <rect x="0" y="0" width="84" height="28" rx="14" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.75" stroke-width="1.2"/>
+        <text x="42" y="18" text-anchor="middle" class="chip-text" fill="#e9d5ff">⚡ EDGE</text>
+      </g>
+      <g class="float-slow" transform="translate(88, -98)">
+        <rect x="0" y="0" width="74" height="26" rx="13" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.65" stroke-width="1.2"/>
+        <text x="37" y="17" text-anchor="middle" class="chip-text" fill="#fbcfe8">UI/UX</text>
+      </g>
+    </g>
+
+    <!-- Outer Neon Border -->
+    <rect x="1" y="1" width="1198" height="348" rx="20" ry="20" fill="none" stroke="url(#ringGrad)" stroke-opacity="0.4" stroke-width="1.6"/>
+  </g>
+</svg>

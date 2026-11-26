@@ -1,23 +1,36 @@
 <div align="center">
 
-# 💫 Jay Prakash
-### *Full-Stack Developer • Problem Solver • Open Source Enthusiast*
+<!-- Animated Cyber Hero Banner -->
+<img src="./assets/hero-banner.svg" width="100%" alt="Jay Prakash — Full-Stack Developer Animated Banner" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-jayportfoliocms-black?style=for-the-badge&logo=vercel&logoColor=white)](https://jayportfoliocms.pages.dev)
+<br/><br/>
+
+<!-- Social & Quick Connect Badges -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-jayportfoliocms-0f172a?style=for-the-badge&logo=vercel&logoColor=38bdf8)](https://jayportfoliocms.pages.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jayprakashbiharii)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jayprakashbiharii)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayprakashkumarqw@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayprakashkkk)
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,15,40,2&height=180&section=header&text=Welcome%20to%20My%20Codebase&fontSize=42&fontColor=fff&animation=twinkling" width="100%" />
+[![Profile Views](https://komarev.com/ghpvc/?username=jayprakashkkk&color=7c3aed&style=for-the-badge&label=VIEWS)](https://github.com/jayprakashkkk)
 
 </div>
 
----
+<br/>
 
-### 👨‍💻 About Me
+<img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
+
+<br/>
+
+<!-- 01 // ABOUT ME -->
+<img src="./assets/section-about.svg" width="100%" alt="01 About Me & Developer Profile" />
+
+<br/><br/>
+
+<div align="center">
+  <img src="./assets/terminal-about.svg" width="100%" alt="Jay Prakash Developer Terminal Card" />
+</div>
+
+<br/>
 
 - 🔭 **Building**: Modern, responsive full-stack applications with edge delivery and real-time cloud sync.
 - 🌱 **Core Focus**: Java (Spring Boot), JavaScript (React, Node.js), PostgreSQL, and modern Cloudflare/Railway serverless architectures.
@@ -25,11 +38,26 @@
 - 💬 **Ask Me About**: Frontend architecture, responsive UI/UX, REST APIs, database schemas, and performance optimization.
 - ⚡ **Fun Fact**: *I can spend hours happily debugging a single semicolon or CSS transform to make it pixel-perfect.*
 
----
+<br/>
 
-### 🛠️ Tech Stack & Tooling
+<img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
 
-#### 💻 Programming Languages
+<br/>
+
+<!-- 02 // TECH ARSENAL & ENGINEERING PILLARS -->
+<img src="./assets/section-stack.svg" width="100%" alt="02 Tech Arsenal & Engineering Pillars" />
+
+<br/><br/>
+
+<div align="center">
+  <img src="./assets/focus-areas.svg" width="100%" alt="Core Engineering Pillars" />
+</div>
+
+<br/>
+
+<div align="center">
+
+#### 💻 Languages
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -69,42 +97,174 @@
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
----
-
-### 🚀 Featured Repositories & Highlights
-
-| Project | Tech Stack | Highlights & Description |
-| :--- | :--- | :--- |
-| **[⛅ Atmos Weather](https://github.com/jayprakashkkk/Atmos-Weather)** | HTML5, CSS3, ES6+ JS, PWA | Meteorological dashboard with animated weather conditions, geolocation, hourly/daily forecasts, and air quality indices. |
-| **[🎓 CampUs](https://github.com/jayprakashkkk/CampUslnf)** | Java 17, Spring Boot, PostgreSQL, Railway | Comprehensive campus platform with Lost & Found claim verification, student peer-to-peer marketplace, and karma leaderboards. |
-| **[🧠 Quiz Pro](https://github.com/jayprakashkkk/Quizpro)** | React, Vite, Tailwind, Supabase | Interactive examination engine featuring 401+ MCQs across 16 subjects, Fisher–Yates shuffling, timed tests, and cloud score analytics. |
-| **[📋 Taskly](https://github.com/jayprakashkkk/Taskly-To-Do-List)** | JS, Cloudflare Pages, Neon DB | Minimalist task planner with smart recipe assistant and real-time cross-device cloud sync powered by Neon Serverless PostgreSQL. |
-| **[🧮 Nova Pro Calculator](https://github.com/jayprakashkkk/NOVA-PRO-Calculator)** | HTML5, CSS3, Vanilla JS | 8-in-1 computation engine combining Scientific, Currency, Unit Converter, GST, EMI, Interest, and Discount calculators in a sleek dark cyber UI. |
-| **[🛒 Sadbhavna Mart](https://github.com/jayprakashkkk/Sadbhavna_files)** | HTML5, CSS3, FontAwesome | Mobile-first hostel late-night essentials ordering platform with direct WhatsApp dispatch and door-to-door room delivery routing. |
-
----
-
-### 📊 GitHub Activity & Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=jayprakashkkk&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" alt="Jay's GitHub Stats" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayprakashkkk&layout=compact&theme=tokyonight&hide_border=false" alt="Top Languages" height="175" />
+</div>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayprakashkkk&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-
-</div>
-
----
-
-<div align="center">
-
-*“First, solve the problem. Then, write the code.”*
+<img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=jayprakashkkk&color=blueviolet&style=flat-square)](https://github.com/jayprakashkkk)
+<!-- 03 // FEATURED REPOSITORIES & HIGHLIGHTS -->
+<img src="./assets/section-projects.svg" width="100%" alt="03 Featured Repositories & Live Demos" />
+
+<br/><br/>
+
+<!-- TODO: Replace the Live Demo placeholder URLs below with your deployed project links -->
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/Atmos-Weather">
+        <img src="./assets/proj-atmos.svg" width="100%" alt="Atmos Weather Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>HTML5</code> <code>CSS3</code> <code>ES6+ JS</code> <code>PWA</code></p>
+      <p>Meteorological dashboard with animated weather conditions, geolocation, hourly &amp; daily forecasts, and air quality indices.</p>
+      <p>
+        <!-- TODO: Replace with Atmos Weather live demo URL -->
+        <a href="https://your-atmos-weather-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-0ea5e9?style=for-the-badge" alt="Atmos Weather Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/Atmos-Weather">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Atmos Weather Repo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/CampUslnf">
+        <img src="./assets/proj-campus.svg" width="100%" alt="CampUs Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>Java 17</code> <code>Spring Boot</code> <code>PostgreSQL</code> <code>Railway</code></p>
+      <p>Comprehensive campus platform with Lost &amp; Found claim verification, student peer-to-peer marketplace, and karma leaderboards.</p>
+      <p>
+        <!-- TODO: Replace with CampUs live demo URL -->
+        <a href="https://your-campus-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-16a34a?style=for-the-badge" alt="CampUs Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/CampUslnf">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="CampUs Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/Quizpro">
+        <img src="./assets/proj-quizpro.svg" width="100%" alt="Quiz Pro Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>React</code> <code>Vite</code> <code>Tailwind</code> <code>Supabase</code></p>
+      <p>Interactive examination engine featuring 401+ MCQs across 16 subjects, Fisher–Yates shuffling, timed tests, and cloud score analytics.</p>
+      <p>
+        <!-- TODO: Replace with Quiz Pro live demo URL -->
+        <a href="https://your-quiz-pro-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-9333ea?style=for-the-badge" alt="Quiz Pro Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/Quizpro">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Quiz Pro Repo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/Taskly-To-Do-List">
+        <img src="./assets/proj-taskly.svg" width="100%" alt="Taskly Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>JavaScript</code> <code>Cloudflare Pages</code> <code>Neon DB</code></p>
+      <p>Minimalist task planner with smart recipe assistant and real-time cross-device cloud sync powered by Neon Serverless PostgreSQL.</p>
+      <p>
+        <!-- TODO: Replace with Taskly live demo URL -->
+        <a href="https://your-taskly-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-0d9488?style=for-the-badge" alt="Taskly Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/Taskly-To-Do-List">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Taskly Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/NOVA-PRO-Calculator">
+        <img src="./assets/proj-nova.svg" width="100%" alt="Nova Pro Calculator Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>HTML5</code> <code>CSS3</code> <code>Vanilla JS</code></p>
+      <p>8-in-1 computation engine combining Scientific, Currency, Unit Converter, GST, EMI, Interest, and Discount calculators in a sleek dark cyber UI.</p>
+      <p>
+        <!-- TODO: Replace with Nova Pro Calculator live demo URL -->
+        <a href="https://your-nova-pro-calculator-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-db2777?style=for-the-badge" alt="Nova Pro Calculator Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/NOVA-PRO-Calculator">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nova Pro Calculator Repo" />
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/jayprakashkkk/Sadbhavna_files">
+        <img src="./assets/proj-sadbhavna.svg" width="100%" alt="Sadbhavna Mart Animated Card" />
+      </a>
+      <p><strong>Stack:</strong> <code>HTML5</code> <code>CSS3</code> <code>FontAwesome</code></p>
+      <p>Mobile-first hostel late-night essentials ordering platform with direct WhatsApp dispatch and door-to-door room delivery routing.</p>
+      <p>
+        <!-- TODO: Replace with Sadbhavna Mart live demo URL -->
+        <a href="https://your-sadbhavna-mart-live-demo.com">
+          <img src="https://img.shields.io/badge/🚀_Live_Demo-d97706?style=for-the-badge" alt="Sadbhavna Mart Live Demo" />
+        </a>
+        <a href="https://github.com/jayprakashkkk/Sadbhavna_files">
+          <img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Sadbhavna Mart Repo" />
+        </a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
+
+<br/>
+
+<!-- 04 // GITHUB TELEMETRY & LIVE STATISTICS -->
+<img src="./assets/section-stats.svg" width="100%" alt="04 GitHub Telemetry & Live Statistics" />
+
+<br/><br/>
+
+<div align="center">
+
+<!-- GitHub Profile Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=jayprakashkkk&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=12" width="100%" alt="Jay's GitHub Trophies" />
+
+<br/><br/>
+
+<!-- GitHub Contribution Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=jayprakashkkk&theme=tokyo-night&area=true&hide_border=false&bg_color=0b1120&color=38bdf8&line=a855f7&point=ec4899" width="100%" alt="Jay's Contribution Activity Graph" />
+
+<br/><br/>
+
+<!-- GitHub Stats & Top Languages -->
+<img src="https://github-readme-stats.vercel.app/api?username=jayprakashkkk&show_icons=true&theme=tokyonight&hide_border=false&count_private=true&bg_color=0b1120" alt="Jay's GitHub Stats" height="175" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayprakashkkk&layout=compact&theme=tokyonight&hide_border=false&bg_color=0b1120" alt="Top Languages" height="175" />
+
+<br/><br/>
+
+<!-- GitHub Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jayprakashkkk&theme=tokyonight&hide_border=false&background=0b1120" alt="GitHub Streak" />
+
+<!--
+  🐍 CONTRIBUTION SNAKE ANIMATION:
+  Once you push and run the "Generate Contribution Snake" GitHub Action
+  (Actions tab -> Generate Contribution Snake -> Run workflow),
+  uncomment the block below to display the animated snake on your profile!
+
+  <br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jayprakashkkk/jayprakashkkk/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jayprakashkkk/jayprakashkkk/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/jayprakashkkk/jayprakashkkk/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+-->
 
 </div>
+
+<br/>
+
+<!-- Animated Footer Wave -->
+<img src="./assets/footer-wave.svg" width="100%" alt="Jay Prakash Animated Footer Wave" />

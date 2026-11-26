@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 110" width="540" height="110" role="img" aria-label="Taskly">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="540" height="110" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="540" height="110" fill="url(#g)"/>
+    <!-- Animated Checkboxes & Cloud Sync Pulse -->
+    <rect x="422" y="24" width="88" height="24" rx="6" fill="#134e4a" stroke="#2dd4bf" stroke-opacity="0.5"/>
+    <path d="M432,36 L437,41 L446,31" fill="none" stroke="#2dd4bf" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="454" y="33" width="44" height="6" rx="3" fill="#5eead4" opacity="0.7"/>
+    <rect x="422" y="58" width="88" height="24" rx="6" fill="#134e4a" stroke="#00e599" stroke-opacity="0.6">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="438" cy="70" r="5" fill="#00e599">
+      <animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="454" y="67" width="44" height="6" rx="3" fill="#99f6e4" opacity="0.7"/>
+    <rect x="22" y="18" width="142" height="22" rx="11" fill="#14b8a6" fill-opacity="0.2" stroke="#2dd4bf" stroke-opacity="0.6"/>
+    <text x="93" y="33" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" font-weight="700" fill="#5eead4">CLOUDFLARE • NEON</text>
+    <text x="22" y="72" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" font-weight="800" fill="#f8fafc">📋 Taskly</text>
+    <text x="22" y="94" font-family="ui-monospace, Menlo, monospace" font-size="12" fill="#94a3b8">Real-Time Cloud Sync • Smart Planner</text>
+    <rect x="1" y="1" width="538" height="108" rx="12" fill="none" stroke="#2dd4bf" stroke-opacity="0.35"/>
+  </g>
+</svg>
