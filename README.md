@@ -33,7 +33,6 @@
 
 </div>
 
-<!-- TODO: Replace the Live Demo placeholder URLs below with your deployed project links -->
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
@@ -41,18 +40,16 @@
         <img src="./assets/proj-atmos.svg" width="100%" alt="Atmos Weather Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with Atmos Weather live demo URL -->
-        <a href="https://your-atmos-weather-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-0ea5e9?style=for-the-badge" alt="Atmos Weather Live Demo" /></a>
+        <a href="https://weatheratmos.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-0ea5e9?style=for-the-badge" alt="Atmos Weather Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/Atmos-Weather"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Atmos Weather Repo" /></a>
       </p>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/jayprakashkkk/CampUslnf">
-        <img src="./assets/proj-campus.svg" width="100%" alt="CampUs Animated Showcase" />
+        <img src="./assets/proj-campus.svg" width="100%" alt="CampUs (Ongoing Project) Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with CampUs live demo URL -->
-        <a href="https://your-campus-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-16a34a?style=for-the-badge" alt="CampUs Live Demo" /></a>
+        <a href="https://campuslnf.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-16a34a?style=for-the-badge" alt="CampUs Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/CampUslnf"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="CampUs Repo" /></a>
       </p>
     </td>
@@ -63,8 +60,7 @@
         <img src="./assets/proj-quizpro.svg" width="100%" alt="Quiz Pro Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with Quiz Pro live demo URL -->
-        <a href="https://your-quiz-pro-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-9333ea?style=for-the-badge" alt="Quiz Pro Live Demo" /></a>
+        <a href="https://tryquiz.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-9333ea?style=for-the-badge" alt="Quiz Pro Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/Quizpro"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Quiz Pro Repo" /></a>
       </p>
     </td>
@@ -73,8 +69,7 @@
         <img src="./assets/proj-taskly.svg" width="100%" alt="Taskly Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with Taskly live demo URL -->
-        <a href="https://your-taskly-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-0d9488?style=for-the-badge" alt="Taskly Live Demo" /></a>
+        <a href="https://dotask.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-0d9488?style=for-the-badge" alt="Taskly Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/Taskly-To-Do-List"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Taskly Repo" /></a>
       </p>
     </td>
@@ -85,8 +80,7 @@
         <img src="./assets/proj-nova.svg" width="100%" alt="Nova Pro Calculator Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with Nova Pro Calculator live demo URL -->
-        <a href="https://your-nova-pro-calculator-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-db2777?style=for-the-badge" alt="Nova Pro Calculator Live Demo" /></a>
+        <a href="https://novacal.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-db2777?style=for-the-badge" alt="Nova Pro Calculator Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/NOVA-PRO-Calculator"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nova Pro Calculator Repo" /></a>
       </p>
     </td>
@@ -95,8 +89,7 @@
         <img src="./assets/proj-sadbhavna.svg" width="100%" alt="Sadbhavna Mart Animated Showcase" />
       </a>
       <p>
-        <!-- TODO: Replace with Sadbhavna Mart live demo URL -->
-        <a href="https://your-sadbhavna-mart-live-demo.com"><img src="https://img.shields.io/badge/🚀_Live_Demo-d97706?style=for-the-badge" alt="Sadbhavna Mart Live Demo" /></a>
+        <a href="https://sadbhavnamart.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-d97706?style=for-the-badge" alt="Sadbhavna Mart Live Demo" /></a>
         <a href="https://github.com/jayprakashkkk/Sadbhavna_files"><img src="https://img.shields.io/badge/💻_Source_Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Sadbhavna Mart Repo" /></a>
       </p>
     </td>
