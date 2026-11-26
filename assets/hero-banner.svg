@@ -229,15 +229,15 @@
     <!-- Left Content -->
     <g transform="translate(64, 48)">
       <!-- Live Status Pill -->
-      <rect x="0" y="0" width="352" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.3"/>
+      <rect x="0" y="0" width="376" height="32" rx="16" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.3"/>
       <circle cx="19" cy="16" r="4.5" fill="#22c55e" filter="url(#glow)">
         <animate attributeName="r" values="4;5.8;4" dur="1.6s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="1;0.4;1" dur="1.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="35" y="20" class="badge-text">OPEN TO COLLABORATE &amp; SHIP CODE</text>
+      <text x="35" y="20" class="badge-text">OPEN TO WORK • SOFTWARE ENGINEER</text>
 
       <!-- Greeting Tag -->
-      <text x="2" y="64" class="greeting">HELLO WORLD // WELCOME TO MY CODEBASE</text>
+      <text x="2" y="64" class="greeting">SOFTWARE ENGINEER // FULL-STACK DEVELOPER</text>
 
       <!-- Main Shimmering Name Title -->
       <text x="0" y="124" class="title" fill="url(#titleGrad)" filter="url(#glow)">Jay Prakash</text>
@@ -249,12 +249,12 @@
           <text x="34" y="0" class="role-text">Full-Stack Developer • Java &amp; React</text>
         </g>
         <g class="r2">
-          <text x="34" y="0" class="role-text">Serverless Architect • Cloudflare &amp; Neon</text>
+          <text x="34" y="0" class="role-text">Backend Engineer • Spring Boot &amp; SQL</text>
         </g>
         <g class="r3">
-          <text x="34" y="0" class="role-text">UI/UX Craftsman • Pixel-Perfect Apps</text>
+          <text x="34" y="0" class="role-text">Cloud &amp; Web Engineer • React &amp; Edge</text>
         </g>
-        <rect x="530" y="-18" width="10" height="23" rx="2" fill="#22d3ee" class="cursor"/>
+        <rect x="505" y="-18" width="10" height="23" rx="2" fill="#22d3ee" class="cursor"/>
       </g>
 
       <!-- Tagline -->

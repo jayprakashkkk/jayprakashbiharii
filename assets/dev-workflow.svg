@@ -71,7 +71,7 @@
       <animate attributeName="r" values="17;21;17" dur="2.2s" repeatCount="indefinite"/>
     </circle>
     <text y="6" text-anchor="middle" font-size="16">🚀</text>
-    <text y="36" text-anchor="middle" class="step">5. Edge Ship</text>
+    <text y="36" text-anchor="middle" class="step">5. Deploy &amp; Scale</text>
     <text y="52" text-anchor="middle" class="sub">Cloudflare / Railway</text>
   </g>
 </svg>

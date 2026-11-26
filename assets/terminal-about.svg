@@ -108,12 +108,12 @@
 
     <text x="52" y="222" class="json">
       <tspan class="key">"openTo"</tspan><tspan class="muted">: </tspan>
-      <tspan class="gold">"Innovative web apps, campus utilities &amp; open-source developer tools"</tspan><tspan class="muted">,</tspan>
+      <tspan class="gold">"Full-Stack / Software Engineer Roles &amp; Impactful Engineering Teams"</tspan><tspan class="muted">,</tspan>
     </text>
 
     <text x="52" y="250" class="json">
-      <tspan class="key">"funFact"</tspan><tspan class="muted">: </tspan>
-      <tspan class="str">"Can happily debug a single semicolon or CSS transform until pixel-perfect"</tspan>
+      <tspan class="key">"strength"</tspan><tspan class="muted">: </tspan>
+      <tspan class="str">"Clean architecture, scalable REST APIs, performance &amp; responsive UI/UX"</tspan>
     </text>
 
     <text x="28" y="278" class="json muted">}</text>
@@ -122,9 +122,9 @@
     <text x="28" y="312" class="cmd">
       <tspan class="prompt">➜</tspan>
       <tspan class="path"> ~/jayprakashkkk</tspan>
-      <tspan class="text"> ./ship-awesome-code.sh</tspan>
+      <tspan class="text"> ./build-production.sh</tspan>
     </text>
-    <rect x="380" y="296" width="9" height="19" rx="1.5" fill="#22d3ee" class="cursor"/>
+    <rect x="372" y="296" width="9" height="19" rx="1.5" fill="#22d3ee" class="cursor"/>
 
     <!-- Animated Progress Indicator on Right -->
     <text x="840" y="312" class="hdr" fill="#7dd3fc">STATUS:</text>

@@ -35,9 +35,9 @@
       <animate attributeName="r" values="18;22;18" dur="3s" repeatCount="indefinite"/>
     </circle>
     <text x="85" y="46" text-anchor="middle" font-size="22">🏆</text>
-    <text x="85" y="76" text-anchor="middle" class="t">7 Public Repos</text>
-    <text x="85" y="94" text-anchor="middle" class="s">Active Shipper</text>
-    <text x="85" y="109" text-anchor="middle" class="r" fill="url(#gold)">GRADE S</text>
+    <text x="85" y="76" text-anchor="middle" class="t">7+ Repositories</text>
+    <text x="85" y="94" text-anchor="middle" class="s">Production Projects</text>
+    <text x="85" y="109" text-anchor="middle" class="r" fill="url(#gold)">PORTFOLIO</text>
   </g>
 
   <!-- Trophy 2 -->
@@ -47,9 +47,9 @@
       <animate attributeName="r" values="18;22;18" dur="3.4s" repeatCount="indefinite"/>
     </circle>
     <text x="85" y="46" text-anchor="middle" font-size="22">⚡</text>
-    <text x="85" y="76" text-anchor="middle" class="t">Full-Stack Pro</text>
+    <text x="85" y="76" text-anchor="middle" class="t">Full-Stack SWE</text>
     <text x="85" y="94" text-anchor="middle" class="s">Java • React • SQL</text>
-    <text x="85" y="109" text-anchor="middle" class="r" fill="url(#cyan)">VERIFIED</text>
+    <text x="85" y="109" text-anchor="middle" class="r" fill="url(#cyan)">CORE STACK</text>
   </g>
 
   <!-- Trophy 3 -->
