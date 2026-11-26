@@ -3,34 +3,22 @@
 <!-- Animated Cyber Hero Banner -->
 <img src="./assets/hero-banner.svg" width="100%" alt="Jay Prakash — Full-Stack Developer Animated Banner" />
 
-<br/><br/>
-
-<!-- Social & Quick Connect Badges -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-jayportfoliocms-0f172a?style=for-the-badge&logo=vercel&logoColor=38bdf8)](https://jayportfoliocms.pages.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jayprakashbiharii)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jayprakashbiharii)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayprakashkumarqw@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayprakashkkk)
-[![Profile Views](https://komarev.com/ghpvc/?username=jayprakashkkk&color=7c3aed&style=for-the-badge&label=VIEWS)](https://github.com/jayprakashkkk)
-
-</div>
-
-<br/>
+<p>
+  <a href="https://jayportfoliocms.pages.dev"><img src="https://img.shields.io/badge/Portfolio-jayportfoliocms-0f172a?style=for-the-badge&logo=vercel&logoColor=38bdf8" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/jayprakashbiharii"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://instagram.com/jayprakashbiharii"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:jayprakashkumarqw@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/jayprakashkkk"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/jayprakashkkk"><img src="https://komarev.com/ghpvc/?username=jayprakashkkk&color=7c3aed&style=for-the-badge&label=VIEWS" alt="Profile Views" /></a>
+</p>
 
 <img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
 
-<br/>
-
 <!-- 01 // ABOUT ME -->
 <img src="./assets/section-about.svg" width="100%" alt="01 About Me & Developer Profile" />
+<img src="./assets/terminal-about.svg" width="100%" alt="Jay Prakash Developer Terminal Card" />
 
-<br/><br/>
-
-<div align="center">
-  <img src="./assets/terminal-about.svg" width="100%" alt="Jay Prakash Developer Terminal Card" />
 </div>
-
-<br/>
 
 - 🔭 **Building**: Modern, responsive full-stack applications with edge delivery and real-time cloud sync.
 - 🌱 **Core Focus**: Java (Spring Boot), JavaScript (React, Node.js), PostgreSQL, and modern Cloudflare/Railway serverless architectures.
@@ -38,24 +26,13 @@
 - 💬 **Ask Me About**: Frontend architecture, responsive UI/UX, REST APIs, database schemas, and performance optimization.
 - ⚡ **Fun Fact**: *I can spend hours happily debugging a single semicolon or CSS transform to make it pixel-perfect.*
 
-<br/>
+<div align="center">
 
 <img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
 
-<br/>
-
 <!-- 02 // TECH ARSENAL & ENGINEERING PILLARS -->
 <img src="./assets/section-stack.svg" width="100%" alt="02 Tech Arsenal & Engineering Pillars" />
-
-<br/><br/>
-
-<div align="center">
-  <img src="./assets/focus-areas.svg" width="100%" alt="Core Engineering Pillars" />
-</div>
-
-<br/>
-
-<div align="center">
+<img src="./assets/focus-areas.svg" width="100%" alt="Core Engineering Pillars" />
 
 #### 💻 Languages
 <p>
@@ -97,18 +74,12 @@
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code" />
 </p>
 
-</div>
-
-<br/>
-
 <img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
-
-<br/>
 
 <!-- 03 // FEATURED REPOSITORIES & HIGHLIGHTS -->
 <img src="./assets/section-projects.svg" width="100%" alt="03 Featured Repositories & Live Demos" />
 
-<br/><br/>
+</div>
 
 <!-- TODO: Replace the Live Demo placeholder URLs below with your deployed project links -->
 <table width="100%">
@@ -216,36 +187,20 @@
   </tr>
 </table>
 
-<br/>
+<div align="center">
 
 <img src="./assets/wave-divider.svg" width="100%" alt="Animated Wave Divider" />
 
-<br/>
-
 <!-- 04 // GITHUB TELEMETRY & LIVE STATISTICS -->
 <img src="./assets/section-stats.svg" width="100%" alt="04 GitHub Telemetry & Live Statistics" />
-
-<br/><br/>
-
-<div align="center">
-
-<!-- Developer Achievements & Milestones -->
 <img src="./assets/achievements.svg" width="100%" alt="Jay's Developer Achievements & Milestones" />
-
-<br/><br/>
-
-<!-- GitHub Contribution Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=jayprakashkkk&theme=tokyo-night&area=true&hide_border=false&bg_color=0b1120&color=38bdf8&line=a855f7&point=ec4899" width="100%" alt="Jay's Contribution Activity Graph" />
 
-<br/><br/>
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=jayprakashkkk&show_icons=true&theme=tokyonight&hide_border=false&count_private=true&bg_color=0b1120" alt="Jay's GitHub Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayprakashkkk&layout=compact&theme=tokyonight&hide_border=false&bg_color=0b1120" alt="Top Languages" height="175" />
+</p>
 
-<!-- GitHub Stats & Top Languages -->
-<img src="https://github-readme-stats.vercel.app/api?username=jayprakashkkk&show_icons=true&theme=tokyonight&hide_border=false&count_private=true&bg_color=0b1120" alt="Jay's GitHub Stats" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayprakashkkk&layout=compact&theme=tokyonight&hide_border=false&bg_color=0b1120" alt="Top Languages" height="175" />
-
-<br/><br/>
-
-<!-- GitHub Streak Stats -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=jayprakashkkk&theme=tokyonight&hide_border=false&background=0b1120" alt="GitHub Streak" />
 
 <!--
@@ -254,7 +209,6 @@
   (Actions tab -> Generate Contribution Snake -> Run workflow),
   uncomment the block below to display the animated snake on your profile!
 
-  <br/><br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jayprakashkkk/jayprakashkkk/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jayprakashkkk/jayprakashkkk/output/github-contribution-grid-snake.svg" />
@@ -262,9 +216,6 @@
   </picture>
 -->
 
-</div>
-
-<br/>
-
-<!-- Animated Footer Wave -->
 <img src="./assets/footer-wave.svg" width="100%" alt="Jay Prakash Animated Footer Wave" />
+
+</div>
