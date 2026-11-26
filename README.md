@@ -46,7 +46,7 @@
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/jayprakashkkk/CampUslnf">
-        <img src="./assets/proj-campus.svg" width="100%" alt="CampUs (Ongoing Project) Animated Showcase" />
+        <img src="./assets/proj-campus-ongoing.svg" width="100%" alt="CampUs (Ongoing Project) Animated Showcase" />
       </a>
       <p>
         <a href="https://campuslnf.pages.dev/"><img src="https://img.shields.io/badge/🚀_Live_Demo-16a34a?style=for-the-badge" alt="CampUs Live Demo" /></a>
